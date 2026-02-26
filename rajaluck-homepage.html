@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raja Luck – #1 Raja Game for Colour Prediction & Real Money Wins in India</title>
+  <meta name="description" content="Raja Luck is India's most trusted Raja Game platform. Play colour prediction, Wingo, and lottery games. Get ₹777 free bonus, instant withdrawals & daily gift codes. Register on Raja Luck today!" />
+  <meta name="keywords" content="Raja Luck, Raja Game, Raja Luck game, Raja Luck app, Raja Luck login, Raja Luck colour prediction, Raja Luck Wingo, Raja Luck register, Raja game login, Raja game app, Raja game colour prediction, Raja luck apk, Raja luck download, Raja luck bonus, Raja luck withdrawal" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://rajaluck.com/" />
+  <meta property="og:title" content="Raja Luck – India's #1 Raja Game Platform | ₹777 Free Bonus" />
+  <meta property="og:description" content="Play colour prediction & Wingo on Raja Luck. Win real money with instant UPI withdrawals. ₹777 free bonus on first login. Join India's fastest growing Raja Game now." />
+  <meta property="og:type" content="website" />
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"What is Raja Luck?","acceptedAnswer":{"@type":"Answer","text":"Raja Luck is India's #1 online real-money Raja Game platform specializing in colour prediction, Wingo, and lottery games. Players predict game outcomes and win real cash rewards paid instantly via UPI."}},
+      {"@type":"Question","name":"Is Raja Luck safe to play?","acceptedAnswer":{"@type":"Answer","text":"Yes. Raja Luck uses SSL encryption to protect all data and transactions. The platform follows fair-play guidelines and offers responsible gaming tools."}},
+      {"@type":"Question","name":"What is the Raja Luck free bonus?","acceptedAnswer":{"@type":"Answer","text":"New players on Raja Luck receive a ₹777 free bonus upon first login. No deposit is required to claim this bonus — simply register and start playing."}},
+      {"@type":"Question","name":"How do I download the Raja Luck app?","acceptedAnswer":{"@type":"Answer","text":"Download the Raja Luck APK directly from the official website. The Raja Luck app is available for Android devices and can be installed in minutes."}}
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --rose:      #C0152E;
+      --rose2:     #E8213A;
+      --rose3:     #FF4A62;
+      --rose-pale: #FFF2F4;
+      --rose-mid:  #FFD6DB;
+      --gold:      #C9893A;
+      --gold2:     #F5C842;
+      --white:     #FFFFFF;
+      --off:       #FDF8F9;
+      --off2:      #FAF2F4;
+      --text:      #1A0610;
+      --sub:       #5C3040;
+      --muted:     #A07080;
+      --border:    #F0D8DC;
+      --green:     #00A85A;
+      --sh:        0 4px 24px rgba(192,21,46,0.08);
+      --sh-lg:     0 20px 60px rgba(192,21,46,0.13);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--white);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      overflow-x: hidden;
+    }
+
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: var(--off); }
+    ::-webkit-scrollbar-thumb { background: var(--rose); border-radius: 99px; }
+
+    /* ══ NAV ══ */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+      height: 68px; display: flex; align-items: center; justify-content: space-between;
+      padding: 0 5%;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+    .logo {
+      font-family: 'Playfair Display', serif; font-weight: 900;
+      font-size: 1.6rem; letter-spacing: -0.5px; text-decoration: none;
+      color: var(--text); display: flex; align-items: center; gap: 6px;
+    }
+    .logo-raja { color: var(--rose); }
+    .logo-crown { font-size: 1.1rem; }
+    .nav-btns { display: flex; gap: 10px; }
+    .btn-login {
+      border: 1.5px solid var(--border); color: var(--text);
+      font-family: 'DM Sans', sans-serif; font-weight: 600; font-size: 0.9rem;
+      padding: 9px 22px; border-radius: 8px; text-decoration: none;
+      transition: border-color .2s, color .2s, background .2s;
+    }
+    .btn-login:hover { border-color: var(--rose); color: var(--rose); background: var(--rose-pale); }
+    .btn-register {
+      background: linear-gradient(135deg, var(--rose), var(--rose3));
+      color: #fff; font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 0.9rem;
+      padding: 9px 22px; border-radius: 8px; text-decoration: none;
+      box-shadow: 0 4px 16px rgba(192,21,46,0.28);
+      transition: opacity .2s, transform .2s;
+    }
+    .btn-register:hover { opacity: .88; transform: translateY(-1px); }
+
+    /* ══ HERO ══ */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; text-align: center;
+      padding: 130px 5% 90px;
+      position: relative; overflow: hidden;
+      background: var(--white);
+    }
+    /* Decorative mandala rings */
+    .ring {
+      position: absolute; border-radius: 50%;
+      border: 1px solid rgba(192,21,46,0.08);
+      pointer-events: none;
+      animation: spin linear infinite;
+    }
+    .ring1 { width: 700px; height: 700px; top: 50%; left: 50%; transform: translate(-50%,-50%); animation-duration: 60s; }
+    .ring2 { width: 520px; height: 520px; top: 50%; left: 50%; transform: translate(-50%,-50%); animation-duration: 45s; animation-direction: reverse; }
+    .ring3 { width: 340px; height: 340px; top: 50%; left: 50%; transform: translate(-50%,-50%); animation-duration: 30s; }
+    .ring::before {
+      content: ''; position: absolute; width: 10px; height: 10px;
+      border-radius: 50%; background: var(--rose-mid); top: -5px; left: 50%;
+    }
+    /* Radial glow */
+    .hero-glow {
+      position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(ellipse 65% 55% at 50% 50%, rgba(192,21,46,0.055) 0%, transparent 70%);
+    }
+    /* dot pattern */
+    .hero-dots {
+      position: absolute; inset: 0; pointer-events: none;
+      background-image: radial-gradient(circle, rgba(192,21,46,0.05) 1px, transparent 1px);
+      background-size: 32px 32px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+    }
+
+    .hero-inner { position: relative; max-width: 840px; animation: fadeUp .9s cubic-bezier(.22,.68,0,1.2) both; }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--rose-pale); border: 1px solid var(--rose-mid);
+      color: var(--rose); font-weight: 700; font-size: 0.7rem;
+      letter-spacing: 1.8px; text-transform: uppercase;
+      padding: 6px 16px; border-radius: 999px; margin-bottom: 28px;
+    }
+    .ldot { width: 7px; height: 7px; background: var(--green); border-radius: 50%; flex-shrink: 0; animation: blink 2s infinite; }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif; font-weight: 900;
+      font-size: clamp(3rem, 7vw, 6.2rem);
+      line-height: 1.0; letter-spacing: -2px; color: var(--text);
+      margin-bottom: 24px;
+    }
+    .hero h1 .hl {
+      background: linear-gradient(135deg, var(--rose), var(--rose3));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero h1 .hl2 {
+      background: linear-gradient(135deg, var(--gold), var(--gold2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+
+    /* SEO-RICH PARAGRAPH BELOW H1 */
+    .hero-p {
+      font-size: 1.12rem; color: var(--sub);
+      max-width: 680px; margin: 0 auto 42px;
+      font-weight: 400; line-height: 1.85;
+    }
+    .hero-p strong { color: var(--text); font-weight: 600; }
+    .hero-p em { color: var(--rose); font-style: normal; font-weight: 600; }
+
+    .hero-ctas { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 60px; }
+    .cta-main {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: linear-gradient(135deg, var(--rose), var(--rose3));
+      color: #fff; font-weight: 700; font-size: 1.05rem;
+      padding: 16px 40px; border-radius: 10px; text-decoration: none;
+      box-shadow: 0 10px 32px rgba(192,21,46,0.32);
+      transition: transform .22s, box-shadow .22s;
+    }
+    .cta-main:hover { transform: translateY(-2px); box-shadow: 0 16px 42px rgba(192,21,46,0.4); }
+    .cta-sec {
+      display: inline-flex; align-items: center; gap: 9px;
+      border: 1.5px solid var(--border); color: var(--text);
+      font-weight: 600; font-size: 1.05rem;
+      padding: 16px 32px; border-radius: 10px; text-decoration: none;
+      transition: border-color .2s, background .2s, color .2s;
+    }
+    .cta-sec:hover { border-color: var(--rose); background: var(--rose-pale); color: var(--rose); }
+
+    /* Free bonus strip */
+    .bonus-strip-hero {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: linear-gradient(135deg, #fff9e8, #fffdf4);
+      border: 1px solid #f0d878; border-radius: 12px;
+      padding: 12px 24px; margin-bottom: 52px;
+      box-shadow: 0 4px 16px rgba(201,137,58,0.12);
+    }
+    .bonus-strip-hero span { font-size: 1.4rem; }
+    .bonus-strip-hero p { font-size: 0.88rem; color: #7A5500; font-weight: 700; }
+    .bonus-strip-hero p small { font-weight: 400; color: #A07830; }
+
+    .hero-stats {
+      display: flex; gap: 50px; flex-wrap: wrap; justify-content: center;
+      padding-top: 42px; border-top: 1px solid var(--border);
+    }
+    .snum { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 2.2rem; letter-spacing: -0.5px; color: var(--text); }
+    .snum em { color: var(--rose); font-style: normal; }
+    .slbl { font-size: 0.77rem; color: var(--muted); font-weight: 500; margin-top: 2px; letter-spacing: 0.3px; }
+
+    /* ══ TRUST BAR ══ */
+    .trust-bar {
+      background: var(--rose); overflow-x: auto;
+      display: flex; padding: 0 5%;
+    }
+    .ti {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 0.8rem; font-weight: 700; color: rgba(255,255,255,0.9);
+      flex-shrink: 0; padding: 13px 28px;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      white-space: nowrap; letter-spacing: 0.3px;
+    }
+    .ti:first-child { padding-left: 0; }
+    .ti:last-child  { border-right: none; }
+
+    /* ══ SECTIONS ══ */
+    section { padding: 96px 5%; }
+    .bg-off  { background: var(--off);  }
+    .bg-off2 { background: var(--off2); }
+
+    .pill {
+      display: inline-block;
+      background: var(--rose-pale); color: var(--rose);
+      font-size: 0.68rem; font-weight: 800; letter-spacing: 2.5px;
+      text-transform: uppercase; padding: 5px 14px;
+      border-radius: 999px; margin-bottom: 14px;
+    }
+    .sec-h {
+      font-family: 'Playfair Display', serif; font-weight: 800;
+      font-size: clamp(2rem, 3.5vw, 3.1rem);
+      letter-spacing: -0.5px; line-height: 1.1; color: var(--text);
+      margin-bottom: 14px;
+    }
+    .sec-h em { color: var(--rose); font-style: normal; }
+    .sec-p {
+      color: var(--sub); font-size: 1rem; max-width: 560px;
+      margin-bottom: 52px; line-height: 1.82;
+    }
+
+    /* ══ GAMES GRID ══ */
+    .games-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+    .gc {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 18px; padding: 32px 26px; position: relative; overflow: hidden;
+      transition: box-shadow .25s, transform .25s;
+    }
+    .gc::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--rose), var(--rose3));
+      transform: scaleX(0); transform-origin: left; transition: transform .3s;
+    }
+    .gc:hover { box-shadow: var(--sh-lg); transform: translateY(-5px); }
+    .gc:hover::before { transform: scaleX(1); }
+    .gc-icon {
+      width: 60px; height: 60px; border-radius: 15px; background: var(--rose-pale);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.9rem; margin-bottom: 18px;
+    }
+    .gc-name { font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.15rem; color: var(--text); margin-bottom: 9px; }
+    .gc-desc { color: var(--sub); font-size: 0.875rem; line-height: 1.7; }
+    .gc-tag {
+      display: inline-block; margin-top: 16px;
+      background: var(--rose-pale); color: var(--rose);
+      font-size: 0.68rem; font-weight: 800; letter-spacing: 1px;
+      padding: 4px 12px; border-radius: 999px; text-transform: uppercase;
+    }
+
+    /* ══ HOW IT WORKS ══ */
+    .steps-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 20px; }
+    .step {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 18px; padding: 34px 28px; position: relative; overflow: hidden;
+      transition: box-shadow .25s, transform .25s;
+    }
+    .step:hover { box-shadow: var(--sh-lg); transform: translateY(-4px); }
+    .step-num {
+      position: absolute; top: -6px; right: 12px;
+      font-family: 'Playfair Display', serif; font-weight: 900;
+      font-size: 5.5rem; color: var(--rose-pale); line-height: 1;
+      user-select: none; pointer-events: none;
+    }
+    .step-ico {
+      width: 54px; height: 54px; border-radius: 13px; background: var(--rose-pale);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.65rem; margin-bottom: 18px;
+    }
+    .step-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.05rem; color: var(--text); margin-bottom: 9px; }
+    .step-desc  { color: var(--sub); font-size: 0.875rem; line-height: 1.7; }
+    .step-tag {
+      display: inline-block; margin-top: 14px;
+      background: var(--rose-pale); color: var(--rose);
+      font-size: 0.67rem; font-weight: 800; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 999px; text-transform: uppercase;
+    }
+
+    /* ══ BONUSES ══ */
+    .bonus-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); gap: 20px; }
+    .bc {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 18px; padding: 32px 26px;
+      transition: box-shadow .25s, transform .25s;
+    }
+    .bc:hover { box-shadow: var(--sh-lg); transform: translateY(-3px); }
+    .bc-icon {
+      width: 54px; height: 54px; border-radius: 13px; background: var(--rose-pale);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.65rem; margin-bottom: 18px;
+    }
+    .bc-val { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 2.4rem; color: var(--rose); letter-spacing: -1px; margin-bottom: 4px; }
+    .bc-name { font-weight: 700; font-size: 0.95rem; color: var(--text); margin-bottom: 9px; }
+    .bc-desc { color: var(--sub); font-size: 0.875rem; line-height: 1.7; }
+
+    /* ══ FEATURE STRIP ══ */
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    .feat {
+      display: flex; gap: 16px; align-items: flex-start;
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 16px; padding: 26px 22px;
+      transition: box-shadow .25s;
+    }
+    .feat:hover { box-shadow: var(--sh); }
+    .feat-ico {
+      width: 48px; height: 48px; flex-shrink: 0; border-radius: 11px;
+      background: var(--rose-pale); display: flex; align-items: center;
+      justify-content: center; font-size: 1.4rem; margin-top: 2px;
+    }
+    .feat-title { font-weight: 700; font-size: 0.95rem; color: var(--text); margin-bottom: 6px; }
+    .feat-desc  { color: var(--sub); font-size: 0.855rem; line-height: 1.68; }
+
+    /* ══ PAY CHIPS ══ */
+    .pay-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 44px; }
+    .pc {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 999px; padding: 10px 20px;
+      font-size: 0.88rem; font-weight: 600; color: var(--text);
+      box-shadow: 0 2px 8px rgba(192,21,46,0.05);
+      transition: border-color .2s, background .2s, color .2s;
+    }
+    .pc:hover { border-color: var(--rose); background: var(--rose-pale); color: var(--rose); }
+
+    /* ══ TESTIMONIALS ══ */
+    .tg { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px; }
+    .tcard {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 18px; padding: 30px 26px;
+      transition: box-shadow .25s;
+    }
+    .tcard:hover { box-shadow: var(--sh); }
+    .stars { color: var(--gold); font-size: 0.9rem; letter-spacing: 2px; margin-bottom: 14px; }
+    .ttext { color: var(--sub); font-size: 0.9rem; line-height: 1.75; margin-bottom: 18px; font-style: italic; }
+    .tauthor { display: flex; align-items: center; gap: 12px; }
+    .tavatar {
+      width: 42px; height: 42px; border-radius: 50%;
+      background: var(--rose-pale); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 1.3rem; flex-shrink: 0;
+    }
+    .tname { font-weight: 700; font-size: 0.9rem; color: var(--text); }
+    .tloc  { font-size: 0.77rem; color: var(--muted); }
+
+    /* ══ FAQ ══ */
+    .fwrap { max-width: 720px; }
+    .fi { border-bottom: 1px solid var(--border); }
+    .fb {
+      width: 100%; background: none; border: none; cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 22px 0; text-align: left; gap: 16px;
+      color: var(--text); font-family: 'DM Sans', sans-serif;
+      font-weight: 600; font-size: 1rem; transition: color .2s;
+    }
+    .fb:hover { color: var(--rose); }
+    .ficon {
+      width: 28px; height: 28px; flex-shrink: 0; border-radius: 50%;
+      border: 1.5px solid var(--border); display: flex; align-items: center;
+      justify-content: center; font-size: 0.95rem; font-weight: 700;
+      color: var(--rose); transition: background .2s, border-color .2s;
+    }
+    .fi.open .ficon { background: var(--rose-pale); border-color: var(--rose-mid); }
+    .fans {
+      display: none; padding: 0 0 22px;
+      color: var(--sub); font-size: 0.92rem; line-height: 1.82;
+    }
+    .fi.open .fans { display: block; }
+
+    /* ══ CTA BAND ══ */
+    .cta-band {
+      background: linear-gradient(135deg, var(--rose) 0%, var(--rose3) 100%);
+      padding: 96px 5%; text-align: center; position: relative; overflow: hidden;
+    }
+    .cta-band::before {
+      content: ''; position: absolute; inset: 0; pointer-events: none;
+      background-image: radial-gradient(circle, rgba(255,255,255,0.07) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+    /* diagonal stripe overlay */
+    .cta-band::after {
+      content: ''; position: absolute; top: -60px; right: -60px;
+      width: 340px; height: 340px; border-radius: 50%; pointer-events: none;
+      background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+    }
+    .cta-band h2 {
+      font-family: 'Playfair Display', serif; font-weight: 900;
+      font-size: clamp(2.3rem, 4.8vw, 4rem);
+      color: #fff; letter-spacing: -1px; margin-bottom: 16px; position: relative;
+    }
+    .cta-band p {
+      color: rgba(255,255,255,.82); font-size: 1.08rem;
+      margin-bottom: 42px; max-width: 500px;
+      margin-left: auto; margin-right: auto; position: relative;
+    }
+    .cta-pair { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; position: relative; }
+    .cta-w {
+      background: #fff; color: var(--rose);
+      font-weight: 800; font-size: 1rem;
+      padding: 15px 38px; border-radius: 10px; text-decoration: none;
+      box-shadow: 0 8px 24px rgba(0,0,0,.15);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .cta-w:hover { transform: translateY(-2px); box-shadow: 0 14px 32px rgba(0,0,0,.22); }
+    .cta-ow {
+      border: 2px solid rgba(255,255,255,.5); color: #fff;
+      font-weight: 600; font-size: 1rem;
+      padding: 15px 32px; border-radius: 10px; text-decoration: none;
+      transition: background .2s, border-color .2s;
+    }
+    .cta-ow:hover { background: rgba(255,255,255,.13); border-color: #fff; }
+
+    /* ══ KEYWORDS SECTION (SEO rich text) ══ */
+    .seo-rich {
+      background: var(--off); border-top: 1px solid var(--border);
+      padding: 56px 5%;
+    }
+    .seo-rich h2 { font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.55rem; color: var(--text); margin-bottom: 18px; }
+    .seo-rich p  { color: var(--sub); font-size: 0.92rem; line-height: 1.85; max-width: 900px; margin-bottom: 14px; }
+    .seo-rich strong { color: var(--text); }
+
+    /* ══ FOOTER ══ */
+    footer { background: var(--text); padding: 68px 5% 40px; }
+    .ft { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 50px; }
+    .flogo {
+      font-family: 'Playfair Display', serif; font-weight: 900;
+      font-size: 1.6rem; color: #fff; margin-bottom: 12px; display: block;
+    }
+    .flogo span { color: var(--rose3); }
+    .fbp { color: rgba(255,255,255,.42); font-size: .875rem; line-height: 1.75; max-width: 280px; }
+    .fc h4 { color: #fff; font-weight: 700; font-size: .875rem; margin-bottom: 16px; }
+    .fc a { display: block; color: rgba(255,255,255,.42); text-decoration: none; font-size: .845rem; margin-bottom: 10px; transition: color .2s; }
+    .fc a:hover { color: rgba(255,255,255,.82); }
+    .fbot {
+      border-top: 1px solid rgba(255,255,255,.08); padding-top: 28px;
+      display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+    }
+    .fbot p { color: rgba(255,255,255,.3); font-size: .8rem; }
+    .warn { margin-top: 20px; font-size: .77rem; color: rgba(255,255,255,.26); line-height: 1.65; max-width: 700px; }
+
+    /* ══ ANIMATIONS ══ */
+    @keyframes fadeUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:none} }
+    @keyframes blink  { 0%,100%{opacity:1} 50%{opacity:.3} }
+    @keyframes spin   { from{transform:translate(-50%,-50%) rotate(0deg)} to{transform:translate(-50%,-50%) rotate(360deg)} }
+
+    .reveal { opacity:0; transform:translateY(22px); transition:opacity .65s ease,transform .65s ease; }
+    .reveal.in { opacity:1; transform:none; }
+
+    /* ══ RESPONSIVE ══ */
+    @media(max-width:960px){
+      .games-grid { grid-template-columns:1fr 1fr; }
+      .ft { grid-template-columns:1fr 1fr; }
+    }
+    @media(max-width:640px){
+      .hero { padding:110px 5% 70px; }
+      .games-grid { grid-template-columns:1fr; }
+      .ft { grid-template-columns:1fr; }
+      .cta-band { padding:68px 5%; }
+      .ring1,.ring2,.ring3 { display:none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════ NAV ════ -->
+<nav aria-label="Main navigation">
+  <a href="#home" class="logo">
+    <span class="logo-crown">👑</span>
+    <span class="logo-raja">Raja</span>Luck
+  </a>
+  <div class="nav-btns">
+    <a href="#login"    class="btn-login"    aria-label="Login to Raja Luck">Login</a>
+    <a href="#register" class="btn-register" aria-label="Register on Raja Luck">Register Free</a>
+  </div>
+</nav>
+
+<!-- ════ HERO ════ -->
+<header class="hero" id="home" aria-label="Raja Luck Hero Section">
+  <div class="hero-glow"  aria-hidden="true"></div>
+  <div class="hero-dots"  aria-hidden="true"></div>
+  <div class="ring ring1" aria-hidden="true"></div>
+  <div class="ring ring2" aria-hidden="true"></div>
+  <div class="ring ring3" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <span class="ldot" aria-hidden="true"></span>
+      India's Most Trusted Raja Game Platform
+    </div>
+
+    <!-- H1 — Focus Keyword: Raja Luck & Raja Game -->
+    <h1>
+      <span class="hl">Raja Luck</span> —<br />
+      India's #1 <span class="hl2">Raja Game</span><br />
+      for Real Money Wins
+    </h1>
+
+    <!-- SEO-rich paragraph directly below H1 -->
+    <p class="hero-p">
+      <em>Raja Luck</em> is India's fastest-growing online <strong>Raja Game</strong> platform where players win real cash by predicting colours, playing Wingo, and joining daily lotteries. Whether you call it <strong>Raja Luck game</strong>, <strong>Raja Luck app</strong>, or simply the best <strong>Raja game login</strong> destination — this is your royal gateway to real-money predictions, instant UPI withdrawals, and a <strong>₹777 free bonus</strong> the moment you register. Join millions of players across India who have already discovered why <em>Raja Luck</em> is the most trusted <strong>Raja game colour prediction</strong> platform available today.
+    </p>
+
+    <div class="bonus-strip-hero" aria-label="Free bonus offer">
+      <span aria-hidden="true">🎁</span>
+      <p>New Players Get <strong>₹777 FREE Bonus</strong> on First Login — No Deposit Needed! <small>Auto-credited instantly.</small></p>
+    </div>
+
+    <div class="hero-ctas">
+      <a href="#register" class="cta-main" id="register">👑 Register on Raja Luck</a>
+      <a href="#login"    class="cta-sec"  id="login">🔐 Login to Raja Game →</a>
+    </div>
+
+    <div class="hero-stats" aria-label="Platform statistics">
+      <div><div class="snum">5M<em>+</em></div><div class="slbl">Active Raja Game Players</div></div>
+      <div><div class="snum">₹<em>777</em></div><div class="slbl">Free Bonus on Register</div></div>
+      <div><div class="snum">30<em>s</em></div><div class="slbl">Round Duration</div></div>
+      <div><div class="snum">24<em>/7</em></div><div class="slbl">Live Support</div></div>
+    </div>
+  </div>
+</header>
+
+<!-- ════ TRUST BAR ════ -->
+<div class="trust-bar" role="region" aria-label="Trust signals">
+  <div class="ti">🔒 SSL Secured Platform</div>
+  <div class="ti">⚡ Instant UPI Withdrawals</div>
+  <div class="ti">🎯 Certified Fair Play RNG</div>
+  <div class="ti">📱 Raja Luck App — Android &amp; iOS</div>
+  <div class="ti">💰 Min. Deposit ₹100</div>
+  <div class="ti">🏆 5 Million+ Players</div>
+  <div class="ti">🎁 ₹777 Free Bonus</div>
+</div>
+
+<!-- ════ GAMES ════ -->
+<section id="games" aria-labelledby="games-h">
+  <div class="pill">Raja Game Library</div>
+  <h2 class="sec-h" id="games-h">Every <em>Raja Game</em> You<br />Can Play on Raja Luck</h2>
+  <p class="sec-p">From the iconic <strong>Raja Luck colour prediction</strong> game to fast-paced Wingo and daily lotteries — Raja Luck offers the most complete <strong>Raja game</strong> collection in India for real-money winners.</p>
+  <div class="games-grid">
+    <div class="gc">
+      <div class="gc-icon">🎨</div>
+      <div class="gc-name">Raja Luck Colour Prediction</div>
+      <p class="gc-desc">The heart of Raja Luck. Predict Red, Green, or Violet every 60 seconds and multiply your stake instantly. <strong>Raja Luck colour prediction</strong> is simple, transparent, and powered by certified RNG for total fairness.</p>
+      <span class="gc-tag">⭐ Most Popular</span>
+    </div>
+    <div class="gc">
+      <div class="gc-icon">🔢</div>
+      <div class="gc-name">Raja Luck Wingo</div>
+      <p class="gc-desc">Predict Small or Big — or guess the exact number — in Raja Luck's famous <strong>Wingo game</strong>. Rounds close in seconds, results appear instantly, and your winnings land in your wallet without delay.</p>
+      <span class="gc-tag">🔥 Fast Rounds</span>
+    </div>
+    <div class="gc">
+      <div class="gc-icon">🎟️</div>
+      <div class="gc-name">Raja Luck Lottery</div>
+      <p class="gc-desc">Join the <strong>Raja Luck lottery</strong> for a shot at life-changing jackpots. Daily and weekly draws with transparent results. Every ticket is a new opportunity to claim your royal fortune.</p>
+      <span class="gc-tag">💎 Big Jackpots</span>
+    </div>
+    <div class="gc">
+      <div class="gc-icon">✈️</div>
+      <div class="gc-name">Aviator — Raja Game</div>
+      <p class="gc-desc">Watch the multiplier climb and cash out before the plane flies away. The Aviator <strong>Raja game</strong> delivers heart-pounding excitement with every single round — cash out at the right moment and win big.</p>
+      <span class="gc-tag">🚀 High Multiplier</span>
+    </div>
+    <div class="gc">
+      <div class="gc-icon">🃏</div>
+      <div class="gc-name">Raja Game Card Games</div>
+      <p class="gc-desc">Teen Patti, Andar Bahar, Rummy — classic Indian card games brought to life on the <strong>Raja Luck</strong> platform. Play skill-based games against real opponents and win real cash rewards every hand.</p>
+      <span class="gc-tag">🎴 Skill-Based</span>
+    </div>
+    <div class="gc">
+      <div class="gc-icon">💣</div>
+      <div class="gc-name">Mini Games — Raja Luck</div>
+      <p class="gc-desc">Mines, Hilo, Dice, and Plinko. Quick-fire mini games on <strong>Raja Luck</strong> with massive potential multipliers. Perfect for fast sessions — one lucky round can multiply your balance by 100x.</p>
+      <span class="gc-tag">⚡ Instant Play</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════ HOW TO PLAY ════ -->
+<section class="bg-off reveal" id="how-to-play" aria-labelledby="steps-h">
+  <div class="pill">How to Play</div>
+  <h2 class="sec-h" id="steps-h">Start Winning on<br /><em>Raja Luck</em> in 4 Easy Steps</h2>
+  <p class="sec-p">The <strong>Raja Luck game</strong> is designed for everyone — from first-time players to seasoned <strong>Raja game</strong> veterans. Register in under 60 seconds and your first colour prediction round is just moments away.</p>
+  <div class="steps-row">
+    <div class="step">
+      <div class="step-num" aria-hidden="true">01</div>
+      <div class="step-ico">📲</div>
+      <div class="step-title">Download the Raja Luck App</div>
+      <p class="step-desc">Download the official <strong>Raja Luck APK</strong> from this website or install the <strong>Raja Luck app</strong> on your Android or iOS device. The app is lightweight, fast, and fully optimised for mobile play.</p>
+      <span class="step-tag">📥 Free Download</span>
+    </div>
+    <div class="step">
+      <div class="step-num" aria-hidden="true">02</div>
+      <div class="step-ico">✍️</div>
+      <div class="step-title">Register on Raja Luck</div>
+      <p class="step-desc">Click Register, enter your mobile number, and create your <strong>Raja Luck</strong> account in under 60 seconds. Your <strong>₹777 free bonus</strong> is credited instantly — no first deposit required to claim it.</p>
+      <span class="step-tag">🎁 ₹777 Bonus</span>
+    </div>
+    <div class="step">
+      <div class="step-num" aria-hidden="true">03</div>
+      <div class="step-ico">🎨</div>
+      <div class="step-title">Choose Your Raja Game</div>
+      <p class="step-desc">Enter the lobby and select your <strong>Raja game</strong> — colour prediction, Wingo, lottery, or mini games. Place your prediction and wait for the result. Rounds take as little as 30 seconds on <strong>Raja Luck</strong>.</p>
+      <span class="step-tag">⏱ 30-Second Rounds</span>
+    </div>
+    <div class="step">
+      <div class="step-num" aria-hidden="true">04</div>
+      <div class="step-ico">💸</div>
+      <div class="step-title">Withdraw Your Winnings</div>
+      <p class="step-desc">Won on <strong>Raja Luck</strong>? Withdraw instantly via UPI, PhonePe, Google Pay, or bank transfer. <strong>Raja Luck withdrawal</strong> requests process in minutes — your money goes straight to your account.</p>
+      <span class="step-tag">⚡ Instant Payout</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════ BONUSES ════ -->
+<section class="reveal" id="bonuses" aria-labelledby="bonuses-h">
+  <div class="pill">Bonuses &amp; Rewards</div>
+  <h2 class="sec-h" id="bonuses-h"><em>Raja Luck</em> Rewards<br />You at Every Turn</h2>
+  <p class="sec-p">From the legendary <strong>₹777 Raja Luck bonus</strong> on first login to daily gift codes, VIP cashback, and a refer-and-earn program — the rewards on Raja Luck never stop coming.</p>
+  <div class="bonus-grid">
+    <div class="bc">
+      <div class="bc-icon">🎁</div>
+      <div class="bc-val">₹777</div>
+      <div class="bc-name">Raja Luck Free Bonus</div>
+      <p class="bc-desc">Every new player who registers on <strong>Raja Luck</strong> receives ₹777 absolutely free — no deposit required. Start your <strong>Raja game</strong> journey with real money in your wallet from day one.</p>
+    </div>
+    <div class="bc">
+      <div class="bc-icon">🔥</div>
+      <div class="bc-val">Daily</div>
+      <div class="bc-name">Daily Login Bonus</div>
+      <p class="bc-desc">Logging into the <strong>Raja Luck app</strong> every day earns you daily rewards. Consistent <strong>Raja Luck login</strong> builds up your bonus balance — the longer your streak, the greater the reward.</p>
+    </div>
+    <div class="bc">
+      <div class="bc-icon">🎟️</div>
+      <div class="bc-val">Free</div>
+      <div class="bc-name">Raja Luck Gift Codes</div>
+      <p class="bc-desc"><strong>Raja Luck gift codes</strong> are released regularly via social media and Telegram. Redeem your daily <strong>Raja Luck code</strong> inside the app to receive free bonus balance — no deposit required.</p>
+    </div>
+    <div class="bc">
+      <div class="bc-icon">💰</div>
+      <div class="bc-val">Up to<br /><span style="font-size:1.4rem">150%</span></div>
+      <div class="bc-name">First Deposit Bonus</div>
+      <p class="bc-desc">Make your first deposit on <strong>Raja Luck</strong> and receive up to a 150% bonus top-up. More balance means more rounds, more predictions, and more chances to win on every <strong>Raja game</strong> in the library.</p>
+    </div>
+    <div class="bc">
+      <div class="bc-icon">👥</div>
+      <div class="bc-val">Refer</div>
+      <div class="bc-name">Raja Luck Refer &amp; Earn</div>
+      <p class="bc-desc">Share your unique <strong>Raja Luck invite code</strong> with friends. When they register and play, you earn a commission on their activity — creating a passive income stream from the <strong>Raja Luck</strong> platform.</p>
+    </div>
+    <div class="bc">
+      <div class="bc-icon">👑</div>
+      <div class="bc-val">VIP</div>
+      <div class="bc-name">Raja Luck VIP Club</div>
+      <p class="bc-desc">Loyal <strong>Raja Luck</strong> players earn VIP status — unlocking higher cashback rates, priority <strong>Raja Luck withdrawal</strong> processing, exclusive game access, and a dedicated account manager.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FEATURES ════ -->
+<section class="bg-off2 reveal" aria-labelledby="features-h">
+  <div class="pill">Why Raja Luck?</div>
+  <h2 class="sec-h" id="features-h">Why Millions Choose<br /><em>Raja Luck</em> Over Other Platforms</h2>
+  <p class="sec-p"><strong>Raja Luck</strong> stands apart from every other <strong>Raja game</strong> platform in India with its unmatched combination of speed, security, fair play, and player-first rewards.</p>
+  <div class="features-grid">
+    <div class="feat"><div class="feat-ico">🛡️</div><div><div class="feat-title">SSL-Encrypted Security</div><p class="feat-desc">Every <strong>Raja Luck login</strong>, transaction, and personal detail is protected by bank-level 256-bit SSL encryption. Your account and your money are always fully secure on the <strong>Raja Luck</strong> platform.</p></div></div>
+    <div class="feat"><div class="feat-ico">🎯</div><div><div class="feat-title">Certified RNG Fair Play</div><p class="feat-desc">Every <strong>Raja Luck colour prediction</strong> result is generated by a certified Random Number Generator. No manipulation, no bias — complete transparency and fairness on every round.</p></div></div>
+    <div class="feat"><div class="feat-ico">⚡</div><div><div class="feat-title">Instant UPI Withdrawals</div><p class="feat-desc"><strong>Raja Luck withdrawal</strong> times are among the fastest in India. Request a payout and receive your winnings in minutes via UPI, PhonePe, Google Pay, or direct bank transfer.</p></div></div>
+    <div class="feat"><div class="feat-ico">📱</div><div><div class="feat-title">Raja Luck App — Android &amp; iOS</div><p class="feat-desc">The official <strong>Raja Luck app</strong> delivers the complete <strong>Raja game</strong> experience from your pocket. Download the <strong>Raja Luck APK</strong> directly from this site for Android, or get the iOS version from the App Store.</p></div></div>
+    <div class="feat"><div class="feat-ico">🌐</div><div><div class="feat-title">24/7 Live Customer Support</div><p class="feat-desc"><strong>Raja Luck</strong> offers round-the-clock live chat and WhatsApp support. Whether you have a question about your <strong>Raja Luck login</strong>, withdrawal, or game result, our team is always available to help.</p></div></div>
+    <div class="feat"><div class="feat-ico">🏏</div><div><div class="feat-title">Sports Betting on Raja Luck</div><p class="feat-desc">Beyond prediction games, <strong>Raja Luck</strong> offers live sports betting on Cricket, Football, Kabaddi, and Tennis. Bet on IPL, World Cup, and all major events with competitive real-time odds.</p></div></div>
+  </div>
+</section>
+
+<!-- ════ PAYMENTS ════ -->
+<section class="reveal" id="payments" aria-labelledby="pay-h">
+  <div class="pill">Payments</div>
+  <h2 class="sec-h" id="pay-h">Fast, Safe Payments<br />on <em>Raja Luck</em></h2>
+  <p class="sec-p"><strong>Raja Luck</strong> supports every major Indian payment method for both deposits and withdrawals. A ₹100 minimum deposit gets you started instantly on any <strong>Raja game</strong>.</p>
+  <div class="pay-chips" aria-label="Supported payment methods">
+    <span class="pc">⚡ UPI</span>
+    <span class="pc">📲 PhonePe</span>
+    <span class="pc">💚 Google Pay</span>
+    <span class="pc">🟣 Paytm</span>
+    <span class="pc">🏦 Net Banking</span>
+    <span class="pc">₿ USDT Crypto</span>
+    <span class="pc">📷 QR Code Pay</span>
+  </div>
+  <div class="features-grid">
+    <div class="feat"><div class="feat-ico">💰</div><div><div class="feat-title">Min. Deposit Just ₹100</div><p class="feat-desc">Begin playing <strong>Raja Luck colour prediction</strong> or Wingo with as little as ₹100. One of the lowest entry points of any <strong>Raja game</strong> platform in India.</p></div></div>
+    <div class="feat"><div class="feat-ico">⚡</div><div><div class="feat-title">Instant Deposits</div><p class="feat-desc">All UPI and QR deposits appear in your <strong>Raja Luck</strong> wallet within seconds. No waiting — your funds are ready the moment your payment processes.</p></div></div>
+    <div class="feat"><div class="feat-ico">📤</div><div><div class="feat-title">Fast Raja Luck Withdrawal</div><p class="feat-desc"><strong>Raja Luck withdrawal</strong> minimum is ₹110, processed in minutes. Your real-money winnings are sent directly to your UPI or bank — no delays, no excuses.</p></div></div>
+    <div class="feat"><div class="feat-ico">🔒</div><div><div class="feat-title">Encrypted Transactions</div><p class="feat-desc">Every rupee moved through the <strong>Raja Luck</strong> platform is protected by SSL encryption and verified through trusted, audited payment gateways. Safe always.</p></div></div>
+  </div>
+</section>
+
+<!-- ════ TESTIMONIALS ════ -->
+<section class="bg-off reveal" aria-labelledby="testi-h">
+  <div class="pill">Player Reviews</div>
+  <h2 class="sec-h" id="testi-h">What Real Players<br />Say About <em>Raja Luck</em></h2>
+  <p class="sec-p">Thousands of Indian players log in to the <strong>Raja Luck game</strong> every day. Here is what genuine <strong>Raja game</strong> players from across India are saying.</p>
+  <div class="tg">
+    <div class="tcard">
+      <div class="stars">★★★★★</div>
+      <p class="ttext">"I have tried many colour prediction apps but <strong>Raja Luck</strong> is the best by far. The rounds are fast, the results are transparent, and my withdrawal hit my UPI in just 4 minutes. This is the real deal!"</p>
+      <div class="tauthor">
+        <div class="tavatar">👑</div>
+        <div><div class="tname">Rohit V.</div><div class="tloc">Pune, Maharashtra</div></div>
+      </div>
+    </div>
+    <div class="tcard">
+      <div class="stars">★★★★★</div>
+      <p class="ttext">"I received the ₹777 free bonus immediately after registering on <strong>Raja Luck</strong>. Used it to win ₹1,400 in my first hour of colour prediction. The <strong>Raja Luck app</strong> is smooth, fast, and genuinely pays out."</p>
+      <div class="tauthor">
+        <div class="tavatar">👑</div>
+        <div><div class="tname">Ananya P.</div><div class="tloc">Hyderabad, Telangana</div></div>
+      </div>
+    </div>
+    <div class="tcard">
+      <div class="stars">★★★★★</div>
+      <p class="ttext">"The <strong>Raja Luck refer and earn</strong> program is amazing. I have invited 12 friends and earn passive income every time they play. This <strong>Raja game</strong> platform is the best earning app I have used in India."</p>
+      <div class="tauthor">
+        <div class="tavatar">👑</div>
+        <div><div class="tname">Suresh K.</div><div class="tloc">Chennai, Tamil Nadu</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FAQ ════ -->
+<section class="reveal" id="faq" aria-labelledby="faq-h">
+  <div class="pill">FAQ</div>
+  <h2 class="sec-h" id="faq-h"><em>Raja Luck</em> &amp; Raja Game —<br />Your Questions Answered</h2>
+  <div class="fwrap">
+
+    <div class="fi" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="fb" aria-expanded="false" itemprop="name">What is Raja Luck and how does the Raja game work?<span class="ficon" aria-hidden="true">+</span></button>
+      <div class="fans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text"><strong>Raja Luck</strong> is India's #1 online real-money <strong>Raja game</strong> platform specializing in colour prediction, Wingo, lottery, and mini games. Players register on the <strong>Raja Luck app</strong>, deposit as little as ₹100, and place predictions on game outcomes. If the prediction is correct, winnings are credited to the wallet instantly. Rounds on <strong>Raja Luck</strong> last as little as 30 seconds, making it one of the fastest real-money prediction platforms in India.</p>
+      </div>
+    </div>
+
+    <div class="fi" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="fb" aria-expanded="false" itemprop="name">What is the Raja Luck ₹777 free bonus?<span class="ficon" aria-hidden="true">+</span></button>
+      <div class="fans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">New players who register on <strong>Raja Luck</strong> for the first time receive a <strong>₹777 free bonus</strong> credited automatically to their wallet upon first login — no deposit required. This bonus can be used to play any <strong>Raja game</strong> including colour prediction and Wingo. It is one of the most generous sign-up bonuses available on any <strong>Raja game</strong> platform in India.</p>
+      </div>
+    </div>
+
+    <div class="fi" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="fb" aria-expanded="false" itemprop="name">How do I download the Raja Luck app?<span class="ficon" aria-hidden="true">+</span></button>
+      <div class="fans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">The official <strong>Raja Luck app</strong> is available for both Android and iOS devices. To download the <strong>Raja Luck APK</strong> for Android, visit the official Raja Luck website and tap the Download App button. Android users may need to enable "install from unknown sources" in their device settings. The iOS version is available via the App Store. The <strong>Raja Luck app</strong> gives you full access to all <strong>Raja games</strong>, deposits, withdrawals, and bonuses on mobile.</p>
+      </div>
+    </div>
+
+    <div class="fi" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="fb" aria-expanded="false" itemprop="name">How fast is the Raja Luck withdrawal process?<span class="ficon" aria-hidden="true">+</span></button>
+      <div class="fans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text"><strong>Raja Luck withdrawal</strong> is one of the fastest in the Indian gaming industry. Once you request a withdrawal, funds are typically processed and sent to your UPI-linked bank account within minutes. The minimum <strong>Raja Luck withdrawal</strong> amount is ₹110. Withdrawals are available via UPI, PhonePe, Google Pay, Paytm, and bank transfer — all safe and encrypted.</p>
+      </div>
+    </div>
+
+    <div class="fi" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="fb" aria-expanded="false" itemprop="name">Is Raja Luck safe and legal in India?<span class="ficon" aria-hidden="true">+</span></button>
+      <div class="fans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text"><strong>Raja Luck</strong> uses 256-bit SSL encryption to protect all user data and financial transactions. All <strong>Raja game</strong> outcomes are powered by certified Random Number Generator (RNG) technology to ensure fairness and transparency. The platform also includes responsible gaming tools such as deposit limits and self-exclusion. Players should verify the gaming laws applicable in their state before participating.</p>
+      </div>
+    </div>
+
+    <div class="fi" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="fb" aria-expanded="false" itemprop="name">How does the Raja Luck refer and earn program work?<span class="ficon" aria-hidden="true">+</span></button>
+      <div class="fans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">The <strong>Raja Luck refer and earn</strong> program lets you earn commission every time a friend registers using your unique invite code and starts playing on the <strong>Raja Luck</strong> platform. There is no cap on the number of referrals — the more players you invite, the more passive income you earn from their <strong>Raja game</strong> activity. Commissions are credited directly to your <strong>Raja Luck</strong> wallet and can be withdrawn immediately.</p>
+      </div>
+    </div>
+
+    <div class="fi" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="fb" aria-expanded="false" itemprop="name">Where can I find today's Raja Luck gift codes?<span class="ficon" aria-hidden="true">+</span></button>
+      <div class="fans" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text"><strong>Raja Luck gift codes</strong> are released daily through the official <strong>Raja Luck</strong> Telegram channel, WhatsApp group, and social media pages. To redeem a <strong>Raja Luck code</strong>, open the app, navigate to the Gift Code section, enter the code, and the bonus balance is credited instantly. Following the official <strong>Raja Luck</strong> channels ensures you never miss a free code.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════ SEO RICH TEXT ════ -->
+<div class="seo-rich" aria-label="About Raja Luck and Raja Game">
+  <h2>About Raja Luck — India's Premier Raja Game Platform</h2>
+  <p><strong>Raja Luck</strong> is a trusted online gaming platform in India designed for players who want to earn real money through prediction-based <strong>Raja games</strong>. Founded on the principles of transparency, fairness, and fast payouts, the <strong>Raja Luck game</strong> has grown to become one of the most downloaded colour prediction apps in the country. The platform is particularly popular for its <strong>Raja Luck colour prediction</strong> game — a simple yet exciting format where players predict Red, Green, or Violet and collect winnings within seconds of each round ending.</p>
+  <p>The <strong>Raja game</strong> ecosystem on Raja Luck also includes <strong>Raja Luck Wingo</strong> (a Small/Big prediction game), <strong>Raja Luck lottery</strong>, Aviator, card games, and instant mini games. This variety ensures that every player — whether a beginner looking for the easiest <strong>Raja game</strong> or an experienced player chasing high-multiplier wins — finds the perfect game on the <strong>Raja Luck app</strong>.</p>
+  <p>Downloading and using the <strong>Raja Luck APK</strong> is completely free. New players are welcomed with a <strong>₹777 Raja Luck bonus</strong> on registration. Daily players benefit from consistent <strong>Raja Luck login</strong> bonuses, redeemable <strong>Raja Luck gift codes</strong>, and a generous <strong>Raja Luck refer and earn</strong> commission programme. The platform's commitment to instant <strong>Raja Luck withdrawal</strong> processing — often completing in under five minutes — sets it apart from every competing <strong>Raja game</strong> app in India today.</p>
+</div>
+
+<!-- ════ CTA BAND ════ -->
+<div class="cta-band reveal" aria-labelledby="cta-h">
+  <h2 id="cta-h">Claim Your ₹777 Bonus<br />on Raja Luck Today</h2>
+  <p>Join 5 million players already winning real cash on the most trusted <strong>Raja Game</strong> platform in India. Register free — your ₹777 royal bonus is waiting.</p>
+  <div class="cta-pair">
+    <a href="#register" class="cta-w" >👑 Register on Raja Luck</a>
+    <a href="#login"    class="cta-ow">🔐 Login to Raja Game →</a>
+  </div>
+</div>
+
+<!-- ════ FOOTER ════ -->
+<footer aria-label="Site footer">
+  <div class="ft">
+    <div>
+      <span class="flogo">👑 <span>Raja</span>Luck</span>
+      <p class="fbp">India's #1 Raja Game platform for colour prediction, Wingo, lottery, and real-money mini games. Fast withdrawals. Certified fair play. ₹777 free bonus for every new player.</p>
+    </div>
+    <div class="fc">
+      <h4>Raja Games</h4>
+      <a href="#games">Colour Prediction</a>
+      <a href="#games">Wingo Game</a>
+      <a href="#games">Lottery</a>
+      <a href="#games">Aviator</a>
+      <a href="#games">Mini Games</a>
+    </div>
+    <div class="fc">
+      <h4>Account</h4>
+      <a href="#register">Register Free</a>
+      <a href="#login">Raja Luck Login</a>
+      <a href="#bonuses">Bonuses &amp; Offers</a>
+      <a href="#payments">Deposits &amp; Withdrawals</a>
+    </div>
+    <div class="fc">
+      <h4>Support</h4>
+      <a href="#">Live Chat</a>
+      <a href="#">Telegram Channel</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms &amp; Conditions</a>
+      <a href="#">Responsible Gaming</a>
+    </div>
+  </div>
+  <div class="fbot">
+    <p>© 2026 Raja Luck. All rights reserved.</p>
+    <p>UPI · PhonePe · Google Pay · Paytm · USDT</p>
+  </div>
+  <p class="warn">⚠️ <strong>18+ Only. Play Responsibly.</strong> Raja Luck is a real-money gaming platform intended strictly for adults aged 18 and above. Gaming involves financial risk. Never participate with funds you cannot afford to lose. If you believe you have a gaming problem, please use our responsible gaming tools or seek professional support. Players are responsible for verifying the legality of online gaming in their respective state or region before participating.</p>
+</footer>
+
+<script>
+  // Scroll reveal
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // FAQ accordion
+  document.querySelectorAll('.fb').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.parentElement;
+      const open = item.classList.contains('open');
+      document.querySelectorAll('.fi').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.fb').setAttribute('aria-expanded','false');
+        i.querySelector('.ficon').textContent = '+';
+      });
+      if (!open) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded','true');
+        item.querySelector('.ficon').textContent = '−';
+      }
+    });
+  });
+</script>
+</body>
+</html>
